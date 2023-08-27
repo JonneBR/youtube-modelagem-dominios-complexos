@@ -1,0 +1,46 @@
+<mxfile host="65bd71144e">
+    <diagram id="6hVav4VxkDgVvQ-maf_H" name="Page-1">
+        <mxGraphModel dx="2730" dy="3304" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="168" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="-680" y="-1969" width="1355" height="600" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Os clientes utilizam essa tela para criar e atualizar as informações do produto. O sistema deve gerenciar as políticas que aplicam-se a diferentes marketplaces.&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#333C45;strokeColor=default;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="-618" y="-1924" width="640" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="Resumo do processo" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="-618" y="-1954" width="150" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#333C45;strokeColor=default;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="-618" y="-1754" width="640" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="PRODUCT" style="whiteSpace=wrap;html=1;aspect=fixed;labelBackgroundColor=none;strokeColor=default;fillColor=#116891;fontColor=#ffffff;gradientColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="-586" y="-1729" width="130" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="CATEGORY" style="whiteSpace=wrap;html=1;aspect=fixed;labelBackgroundColor=none;strokeColor=default;fillColor=#116891;fontColor=#ffffff;gradientColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="-286" y="-1729" width="130" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="ATTRIBUTES" style="whiteSpace=wrap;html=1;aspect=fixed;labelBackgroundColor=none;strokeColor=default;fillColor=#116891;fontColor=#ffffff;gradientColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="-140" y="-1729" width="130" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="&lt;ol&gt;&lt;li&gt;Gestão de informações como(preço, estoque, nome, sku, descrição, frete, variação)&lt;/li&gt;&lt;li&gt;Como esse produto é visto pelo marketplace/loja; (invariantes como estoque, preço, variação)&lt;/li&gt;&lt;li&gt;Como esse produto é visto pela variação?&lt;br&gt;&lt;/li&gt;&lt;/ol&gt;" style="rounded=0;whiteSpace=wrap;fillColor=#333C45;strokeColor=default;fontColor=#ffffff;align=left;verticalAlign=top;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="-618" y="-1524" width="640" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="PRODUCT" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="-618" y="-1554" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="VARIATION" style="whiteSpace=wrap;html=1;aspect=fixed;labelBackgroundColor=none;strokeColor=default;fillColor=#116891;fontColor=#ffffff;gradientColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="-436" y="-1729" width="130" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="&lt;h1&gt;Domain description&lt;br&gt;&lt;/h1&gt;&lt;p&gt;O sistema permite o usuário criar dois tipos de produtos; base e variação. Para realizar o cadastro, as seguintes informações devem ser inseridas(nome, preço, sku). Com o produto criado, o usuário pode editar/adicionar o resto das informações.&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="110" y="-1739" width="250" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="&lt;h1&gt;&amp;nbsp;&lt;br&gt;&lt;/h1&gt;&lt;p&gt;O produto base pode ou não ter variações, uma vez que tiver, ele nunca poderá ser uma variação no futuro por si só, caso não tiver, ele pode ser editado para ser uma variação e ser relacionado a outro produto base&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="400" y="-1739" width="250" height="160" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
